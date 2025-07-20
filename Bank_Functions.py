@@ -19,7 +19,7 @@ def check_balance(name, balance):
 
 def deposit(balance):
     try:
-        amount = float(input("💵 Enter amount to deposit: "))
+        amount = float(input("Enter amount to deposit: "))
         if amount < 0:
             print(" Cannot deposit a negative amount.")
         else:
